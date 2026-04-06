@@ -1,0 +1,9 @@
+# Dependências de Desenvolvimento - XML Downloader
+-r requirements-build.txt
+pylint==3.0.3
+black==24.1.1
+isort==5.13.2
+flake8==7.0.0
+mypy==1.7.1
+pytest==7.4.3
+pytest-cov==4.1.0

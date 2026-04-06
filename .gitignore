@@ -1,0 +1,59 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual env
+.venv/
+venv/
+env/
+
+# Build / empacotamento
+build/
+dist/
+*.spec
+
+# Executáveis e instaladores
+*.exe
+*.msi
+*.zip
+*.rar
+*.7z
+*.ico
+
+# Banco e dados locais
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs
+*.log
+logs/
+log/
+
+# Downloads / saídas do programa
+downloads/
+output/
+temp/
+tmp/
+cache/
+
+# Certificados / segredos
+*.pfx
+*.pem
+*.key
+*.crt
+.env
+.env.*
+!.env.example
+
+# Arquivos temporários / internos
+AJUSTES_*.md
+0_*.bat
+4_ABRIR_XMDL_TESTE.bat
+
+# Sistema
+.DS_Store
+Thumbs.db
+desktop.ini

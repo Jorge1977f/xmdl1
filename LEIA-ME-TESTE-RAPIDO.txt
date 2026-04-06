@@ -1,0 +1,30 @@
+TESTE RAPIDO DO LICENCIAMENTO XMDL
+
+1) Abra a pasta backend.
+2) Execute: 0_COLOCAR_SENHA_DO_SUPABASE_AQUI.bat
+3) No arquivo .env, troque SOMENTE esta linha:
+   LICENSE_PG_PASSWORD=COLOQUE_AQUI_A_SENHA_DO_BANCO_SUPABASE
+   pela senha do banco do Supabase.
+
+4) Execute: 1_INSTALAR_DEPENDENCIAS_SEM_VENV.bat
+5) Execute: 2_INICIAR_BACKEND_LOCAL.bat
+   Deixe essa janela aberta.
+
+6) Opcional: execute 3_ABRIR_DOCS_API.bat para conferir a API.
+   Tambem pode abrir no navegador:
+   http://127.0.0.1:8080/
+   http://127.0.0.1:8080/health
+   http://127.0.0.1:8080/docs
+
+7) Volte para a pasta principal do XMDL e execute:
+   4_ABRIR_XMDL_TESTE.bat
+
+8) No programa, va em Licencas e clique em:
+   - Salvar cadastro
+   - Sincronizar licenca
+
+OBSERVACOES
+- O app ja esta apontado para http://127.0.0.1:8080
+- O backend ja esta configurado para o projeto XMDL
+- Para teste, o Pix esta em modo simulado
+- Depois do teste, o cliente final NAO vai usar isso localmente. Isso e so para sua maquina de desenvolvimento.
